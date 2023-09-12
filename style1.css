@@ -1,0 +1,219 @@
+body{
+    background-color: black;
+}
+.container1 {
+    border:1px solid black;
+    height:400vh;
+}
+
+.container1 .box1{
+    border: 1px solid black;
+    height:10vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+
+.box1 .heading{
+    margin: 20px;
+    font-size: 22px;
+}
+.heading a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.heading a:hover{
+    color:rgb(34, 113, 203);
+}
+
+#box2 {
+    border: 1px solid black;
+    margin-top: 6%;
+    display: flex;
+    height:60vh;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2 .intro{
+    border:1px solid black;
+    margin-top: 4%;
+    height:50vh;
+    width:50%;
+    margin-left: 7%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2 img{
+    width: 310px;
+    height: 310px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#box2 .intro1{
+    font-size: 15px;
+    width:85%;
+}
+.intro1 h1,h2{
+    margin: 5px;
+    padding: 0;
+}
+.intro1 p{
+    line-height: 25px;
+    font-size: 15px;
+    width: 500px;
+}
+#box2 .intro2{
+    margin-top: 15px;
+    font-size: 23px;
+}
+.intro2 i{
+    margin: 5px;
+}
+#box2 .intro3{
+    height: 28px;
+    margin-top: 25px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 17px;
+    border-radius: 3px;
+    text-align: center;
+    height:27px;
+    background-color: black;
+    color:rgb(52, 85, 192);
+}
+
+#box3{
+    border: 1px solid black;
+    margin-top: 10%;
+    height:57vh;
+    color: white;
+}
+#box3 .skills{
+    border:1px solid black;
+    float: right;
+    margin-left: 6px;
+    height:50vh;
+    width:40%;
+    margin-top: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box3 img{
+    width: 470px;
+    margin-left: 7%;
+    height: 350px;
+    transform: none;
+    transition: none;
+}
+.skills h1{
+    margin: 5px;
+    padding-bottom: 40px;
+}
+.skills input{
+    width:60%;
+}
+.skills label{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+#box4{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10%;
+    height:80vh;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box4 .proj{
+    border:1px solid black;
+    margin: 80px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 8%;
+    height:45vh;
+    width:40%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px 10px 1px  white;
+}
+ul{
+   display: flex;
+}
+ul li{
+    margin: 10px;
+    padding: 5px;
+}
+#box4 .proj1{
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(24, 23, 23);
+    margin-top: 4%;
+    margin-right: 30px;
+    height:60vh;
+    width: 43%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box4 .proj1 img{
+    margin: 2px;
+    width: 32.3%;
+    height: 49%;
+    border-radius: 10px;
+}
+#box4 .proj1 img:hover{
+    transform: scale(3);
+    transition: 3s transform;
+}
+#box5{
+    border: 1px solid black;
+    height:30vh;
+    margin-top: 8%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box5 .res1{
+    text-align: center;
+    margin-top: 5%;
+}
+.res1 button{
+    font-size: 30px;
+    width: 20%;
+    height: 15vh;
+    box-shadow: 3px 3px 10px 1px  white;
+
+}
+#box6{
+    border: 1px solid black;
+    height:55vh;
+    margin-top: 10%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box6 .contact{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 33%;
+    height: 40vh;
+    width: 40%;
+}
+#box7{
+    border: 1px solid black;
+    height:30vh;
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#box7 p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+}
